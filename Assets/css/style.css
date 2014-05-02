@@ -5,9 +5,7 @@ body{
 
 header{
 	background-color:black;
-	background-size:100%;
-	margin:0;
-	display:block;
+	overflow:hidden;
 }
 
 h1 img{
@@ -41,6 +39,7 @@ h2{
 
 .getintouch{
 	font-weight:bold;
+	padding-bottom:40px;
 }
 
 .firstp{
@@ -63,4 +62,29 @@ a{
 
 a:hover{
 	text-decoration: underline;
+}
+
+footer{
+	background-color:black;
+	overflow:hidden;
+	text-align:center;
+	/*border-top:1px solid white;
+	clear:both;*/
+}
+
+.vcard{
+	color:white;
+}
+
+ul{
+	margin: 20px 0;
+	padding-bottom:40px;
+}
+
+li{
+	float:left;
+	list-style: none;
+	width:30%;
+	margin-bottom: 20px;
+	/*border:1px red solid;*/
 }
