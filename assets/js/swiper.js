@@ -2797,7 +2797,8 @@ window.onload = function() {
     mode:'horizontal',
     loop: true,
     pagination: '#pagination',
-    paginationClickable: true
+    paginationClickable: true,
+    resizeReInit: true
     //etc..
   });  
 }

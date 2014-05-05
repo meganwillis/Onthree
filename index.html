@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
 	<head>
 		<meta charset="utf-8">
 		<title>Onthree</title>
@@ -7,6 +7,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="#" />
 		<link rel="stylesheet" href="assets/css/style.css" />
+		<script>
+			document.documentElement.className = document.documentElement.className.replace("no-js","js");
+		</script>
 	</head>
 	<body>
 		<div id="wrapper">
@@ -55,17 +58,18 @@
 				<div class="vcard">
 					<div class="contact">
 						<div class="contact-column">
-							<span class="tel"><i class="fa fa-phone fa-2x"></i>+44 (0)207 300 7311</span>
+							<span class="tel"><a href="tel://44-0-207-300-7311"><i class="fa fa-phone fa-2x"></i>+44 (0)207 300 7311</a></span>
 							<span class="email"><a href="mailto:studio@on-three.com"><i class="fa fa-envelope fa-2x"></i>studio@on-three.com</a></span>
 						</div>
 						<span class="address ">
-							<i class="fa fa-map-marker fa-2x"></i>
-							<span class="adr">						
-								<span class="extended-address">The Old Fire Station</span>
-								<span class="street-address">140 Tabernacle Street</span>
-								<span class="locality">London</span>
-								<span class="postal-code">EC2A 4SD</span>
-							</span>
+							<a href="https://www.google.co.uk/maps/place/140+Tabernacle+St/@51.5257905,-0.0840498,17z/data=!3m1!4b1!4m2!3m1!1s0x48761ca563fd86d3:0x4701ac21ba59b6c6"><i class="fa fa-map-marker fa-2x"></i>
+								<span class="adr">						
+									<span class="extended-address">The Old Fire Station</span>
+									<span class="street-address">140 Tabernacle Street</span>
+									<span class="locality">London</span>
+									<span class="postal-code">EC2A 4SD</span>
+								</span>
+							</a>
 						</span>
 					</div>
 				</div>

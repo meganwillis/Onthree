@@ -1446,7 +1446,7 @@ Pagination Styles
 }
 
 #pagination {
-	padding:10px 0 0 0;
+	padding:15px 0 0 0;
 	text-align: center;
 }
 #pagination span{
@@ -1471,6 +1471,15 @@ Pagination Styles
 }
 .swiper-active-switch {
   background: #fff;
+}
+.swiper-container{
+	overflow:hidden;
+}
+.no-js .swiper-slide {
+	display:none;
+}
+.no-js .swiper-slide:first-child{
+	display:block;
 }
 
 #wrapper{
@@ -1524,7 +1533,7 @@ p, .contact{
 }
 
 .firstp{
-	padding:40px 30px 0 30px;
+	padding:25px 30px 0 30px;
 	margin:0 auto;
 }
 
@@ -1595,9 +1604,10 @@ span{
 
 .copy{
 	float:left;
-	padding:8px 0 20px 10px;
+	padding:0 0 20px 10px;
 	font-size: .9em;
 }
+
 
 .vcard{
 	margin-bottom:10px;
@@ -1621,7 +1631,6 @@ span{
 }
 .adr span{
 	padding:0;
-	top:;
 }
 
 footer, footer a{
@@ -1630,6 +1639,7 @@ footer, footer a{
 
 footer a:hover{
 	color:white;
+	text-decoration: none;
 }
 
 /* Specify Swiper's Size: */
@@ -1668,6 +1678,9 @@ footer a:hover{
 	}
 	.copy{
 		clear:both;
+	}
+	.copy p{
+		padding-top:0;
 	}
 }
 
