@@ -2795,7 +2795,9 @@ window.onload = function() {
     //Your options here:
     calculateHeight: true,
     mode:'horizontal',
-    loop: true
+    loop: true,
+    pagination: '#pagination',
+    paginationClickable: true
     //etc..
   });  
 }
