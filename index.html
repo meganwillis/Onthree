@@ -9,15 +9,37 @@
 		<link rel="stylesheet" href="assets/css/style.css" />
 	</head>
 	<body>
+		<div id="wrapper">
 		<header>
 			<h1>
 				<img src="assets/img/logo.png" alt="Onthree logo" class="hero" />
 			</h1>
 			<p class="strapline">Brand building &amp; communications</p>
 		</header>
-			<h2 class="clients">
-				<img src="assets/img/ourclients.jpg" alt="Our clients logos" />
-			</h2>
+
+			<div class="swiper-container">
+			  <div class="swiper-wrapper">
+			      <!--First Slide-->
+			      <div class="swiper-slide"> 
+			        <!-- Any HTML content of the first slide goes here -->
+			        <img src="assets/img/ourclients-desktop.jpg" alt="Our clients logos" />
+			      </div>
+			      
+			      <!--Second Slide-->
+			      <div class="swiper-slide">
+			        <!-- Any HTML content of the second slide goes here -->
+			        <img src="assets/img/ourclients-desktop.jpg" alt="Our clients logos" />
+			      </div>
+			      
+			      <!--Third Slide-->
+			      <div class="swiper-slide"> 
+			        <!-- Any HTML content of the third slide goes here -->
+			        <img src="assets/img/ourclients-desktop.jpg" alt="Our clients logos" />
+			      </div>
+			      <!--Etc..-->
+			  </div>
+			</div>
+
 			<p class="firstp">
 				Thanks to all our friends, clients and partners who have kept us very busy over the last year.
 			</p>
@@ -31,7 +53,17 @@
 			<div class="vcard">
 				<p class="contact">
 					<span class="tel"><i class="fa fa-phone fa-2x"></i>+44 (0)207 300 7311</span>
-					<span class="email"><a href="mailto:studio@on-three.com"><i class="fa fa-envelope fa-2x"></i>studio@on-three.com</span></a>
+					<span class="email"><a href="mailto:studio@on-three.com"><i class="fa fa-envelope fa-2x"></i>studio@on-three.com</a></span>
+					<span class="address ">
+						<i class="fa fa-map-marker fa-2x"></i>
+						<span class="adr">						
+							<span class="extended-address">The Old Fire Station</span>
+							<span class="street-address">140 Tabernacle Street</span>
+							<span class="locality">London</span>
+							<span class="postal-code">EC2A 4SD</span>
+						</span>
+					</span>
+				</p>
 			</div>
 			<ul class="fa-ul">
 				<li>
@@ -50,5 +82,7 @@
 				<p>&copy;Onthree 2014</p>
 			</div>
 		</footer>
+		</div>
+		<script src="assets/js/swiper.js"></script>
 	</body>
 </html>
