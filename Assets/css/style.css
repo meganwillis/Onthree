@@ -1498,7 +1498,7 @@ header{
 }
 
 h1 img{
-	padding:30px 25px 0 29px;
+	padding:20px 25px 0 29px;
 	margin:0 0 12px 0;
 	width:55%;
 	max-width:220px;
@@ -1523,7 +1523,7 @@ p, .contact{
 .strapline{
 	color:white;
 	margin:0;
-	padding:0 20px 30px 30px;
+	padding:0 20px 20px 30px;
 	font-size:1em;
 }
 
@@ -1541,7 +1541,7 @@ p, .contact{
 
 a{
 	text-decoration: none;
-	color:#4BB208;
+	color:#987c2f;
 }
 
 a:hover{
@@ -1563,6 +1563,7 @@ footer{
 .contact{
 	margin:0;
 	padding-right:0;
+	padding-top: 5px;
 }
 
 span{
@@ -1610,7 +1611,7 @@ span{
 
 
 .vcard{
-	margin-bottom:10px;
+	margin-bottom:0;
 	text-align: left;
 }
 
@@ -1645,20 +1646,45 @@ footer a:hover{
 /* Specify Swiper's Size: */
 .swiper-container, .swiper-slide {
 	height:auto;
-	max-height:400px;
+	/*max-height:400px;*/
 	width:100%;
 	display:block;
 	margin:0;
 }
-
+/*
 .swiper-slide img{
+	width:150%;
+	margin: 0 0 0 -25%;
+}*/
+
+.slide{
 	width:100%;
+	overflow:hidden;
+	padding-bottom:58%;
+	position: relative;
+}
+
+.slide img{
+	position:absolute;
+	width:150%;
+	top:-25%;
+	bottom:0;
+	left:-25%;
 }
 
 @media all and (min-width: 630px){
 	.contact .contact-column{
 		float:left;
 		width:50%;
+	}
+	.slide{
+		padding-bottom:38%;
+	}
+	.slide img{
+		position:absolute;
+		width:100%;
+		top:0;
+		left:0;
 	}
 }
 
@@ -1672,7 +1698,7 @@ footer a:hover{
 		float:right;
 		width:100%;
 		max-width:190px;
-		padding-top:35px;
+		padding-top:20px;
 		padding-bottom:30px;
 		padding-right:20px;
 	}
@@ -1681,6 +1707,9 @@ footer a:hover{
 	}
 	.copy p{
 		padding-top:0;
+	}
+	.address{
+		padding: 10px 0 0 0;
 	}
 }
 
