@@ -1448,6 +1448,7 @@ Pagination Styles
 #pagination {
 	padding:15px 0 0 0;
 	text-align: center;
+	min-height:19px;
 }
 #pagination span{
 	padding:0;
@@ -1475,10 +1476,10 @@ Pagination Styles
 .swiper-container{
 	overflow:hidden;
 }
-.no-js .swiper-slide {
+.slide{
 	display:none;
 }
-.no-js .swiper-slide:first-child{
+.swiper-slide:first-child .slide, #active .slide{
 	display:block;
 }
 
@@ -1667,7 +1668,7 @@ footer a:hover{
 .slide img{
 	position:absolute;
 	width:150%;
-	top:-25%;
+	top:-15%;
 	bottom:0;
 	left:-25%;
 }
@@ -1683,7 +1684,7 @@ footer a:hover{
 	.slide img{
 		position:absolute;
 		width:100%;
-		top:0;
+		top:-18%;
 		left:0;
 	}
 }

@@ -2793,12 +2793,18 @@ if (typeof define === 'function' && define.amd) {
 window.onload = function() {
   var mySwiper = new Swiper('.swiper-container',{
     //Your options here:
+    speed:600,
+    autoplay: 8000,
     calculateHeight: true,
     mode:'horizontal',
     loop: true,
     pagination: '#pagination',
     paginationClickable: true,
-    resizeReInit: true
+    resizeReInit: true,
+    onInit: function(swiper) {
+        console.log(swiper);
+        swiper.container.id = "active";
+    }
     //etc..
   });  
 }
